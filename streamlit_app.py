@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("!!??!!!* Testing Apps !!!!??!!")
+st.title("**!!??!!!* Testing Apps !!!!??!!**")
 
 file_obj = st.sidebar.file_uploader('Choose an image:', ('jpg', 'jpeg'))
 
