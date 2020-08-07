@@ -2,7 +2,7 @@ import time
 
 import streamlit as st
 
-st.title("Test App!!!")
+st.title("!! Test App!!!")
 
 file_obj = st.sidebar.file_uploader('Choose an image:', ('jpg', 'jpeg'))
 
@@ -26,3 +26,6 @@ print("this is a log line")
 time.sleep(5)
 st.write("It's time for some more balloons!")
 st.balloons()
+st.write("Force pushing an update")
+st.write("Force pushing another update")
+
