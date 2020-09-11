@@ -1,6 +1,10 @@
 import time
 import random
 import streamlit as st
+import socket
+
+
+st.write(f"Running on {socket.gethostname()}")
 
 @st.cache
 def get_random_number():
