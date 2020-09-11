@@ -1,6 +1,10 @@
 import time
-
+import random
 import streamlit as st
+
+@st.cache
+def get_random_number():
+    return random.randint(0, 1000)
 
 st.title("!! Test App!!!")
 
@@ -28,4 +32,6 @@ st.write("It's time for some more balloons!")
 st.balloons()
 st.write("Force pushing an update")
 st.write("Force pushing another update")
+
+st.write(f"your lucky number is: {get_random_number()}")
 
