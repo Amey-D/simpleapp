@@ -37,5 +37,5 @@ st.balloons()
 st.write("Force pushing an update")
 st.write("Force pushing another update")
 
-st.write(f"your lucky number is: {get_random_number()}")
+st.write(f"Your lucky number is: {get_random_number()} !!!")
 
