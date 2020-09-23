@@ -3,6 +3,8 @@ import random
 import streamlit as st
 import socket
 
+from six.moves.collections_abc import Sequence
+
 
 st.write(f"!!! Running on {socket.gethostname()} !!!")
 
