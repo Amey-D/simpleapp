@@ -5,8 +5,9 @@ import socket
 
 from six.moves.collections_abc import Sequence
 
+print("starting script ...")
 
-st.write(f"!!! Running on {socket.gethostname()} !!!")
+# st.write(f"!!! Running on {socket.gethostname()} !!!")
 
 @st.cache
 def get_random_number():
@@ -41,3 +42,4 @@ st.write("Force pushing another update")
 
 st.write(f"Your lucky number is: {get_random_number()} !!!")
 
+print("finished script ...")
