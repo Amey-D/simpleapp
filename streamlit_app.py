@@ -40,8 +40,6 @@ print("this is a log line")
 time.sleep(5)
 st.write("It's time for some more balloons!")
 st.balloons()
-st.write("Force pushing an update")
-st.write("Force pushing another update")
 
 st.write(f"Your lucky number is: {get_random_number()} !!!")
 
