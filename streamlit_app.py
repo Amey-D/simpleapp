@@ -47,5 +47,6 @@ st.write(f"Your lucky number is: {get_random_number()} !!!")
 
 print("finished script ...")
 st.write("posting yet another update")
+st.write("posting yet another update")
 
 
