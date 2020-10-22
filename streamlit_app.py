@@ -44,6 +44,6 @@ st.balloons()
 st.write(f"Your lucky number is: {get_random_number()} !!!")
 
 print("finished script ...")
-st.write("this is an update")
+st.write("this is another update")
 
 
