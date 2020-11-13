@@ -9,7 +9,7 @@ from six.moves.collections_abc import Sequence
 print("starting script ...")
 
 st.code(os.environ)
-# st.write(f"---??!!!?? Running on {socket.gethostname()} ??!!!??---")
+st.write(f"---??!!!?? Running on {socket.gethostname()} ??!!!??---")
 
 
 @st.cache
