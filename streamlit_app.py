@@ -10,6 +10,7 @@ print("starting script ...")
 
 st.code(os.environ)
 st.write(f"---??!!!?? Running on {socket.gethostname()} ??!!!??---")
+st.write("testing auto-reload")
 
 
 @st.cache
