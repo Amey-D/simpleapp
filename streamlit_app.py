@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.title("*!!??!!!* Testing Apps !!!!??!!*")
-st.write("testing auto reload")
+st.write("** testing auto reload **")
 
 file_obj = st.sidebar.file_uploader('Choose an image:', ('jpg', 'jpeg'))
 
